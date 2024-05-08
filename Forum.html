@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h4>Sign Up Form</h4>
+    <form action="Welcome.html" method="post">
+        <p>First Name :</p>
+        <input type="text" id="firstname" name="firstname" required><br>
+        <p>Last Name :</p>
+        <input type="text" id="lastname" name="lastname" required><br>
+
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label><br>
+
+        <p>Nationality</p>
+        <select id="nation" name="Nationality">
+            <option value="blank"></option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapura">Singapura</option>
+        </select><br>
+
+        <p>Language Spoken :</p>
+        <input type="checkbox" id="ls1" name="LS1" value="bike">
+        <label for="ls1">I have a bike</label><br>
+        <input type="checkbox" id="ls2" name="LS2" value=car">
+        <label for="ls2">I have a car</label><br>
+        <input type="checkbox" id="ls3" name="LS3" value="boat">
+        <label for="ls3">I have a boat</label><br>
+
+        <p>Bio</p>
+        <textarea cols="30" rows="10" required></textarea><br>
+
+        <input type="submit" value="Sign Up"><br>
+    </form>
+</body>
+
+</html>
