@@ -31,7 +31,6 @@ p {
     border-radius: 50px;
     color: white;
 }
-
     </style>
 </head>
 <body>
