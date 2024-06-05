@@ -14,7 +14,8 @@ class TaskController extends Controller
     public function index()
     {
         //mendapatkan data tugas dari model
-        $task = Task::getALL();
+        $task = Task::ALL();
+        dd($task);
 
         //mengirim data ke view
         return view('task.index', [

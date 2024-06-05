@@ -1,0 +1,2 @@
+    Pada pertemuan kali ini hal yang dipelajari adalah tentang Model, Migrationn, dan Seed & Factory pada.
+Yaitu; cara membuat dan menggunakan Mingration, Seed & Factory yang berfungsi untuk mengisi data pada database di phpmyadmin.
